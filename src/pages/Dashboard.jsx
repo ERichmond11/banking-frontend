@@ -1,3 +1,4 @@
+import api from "../api/axiosClient";
 import React, { useEffect } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import NavBar from "../components/NavBar";
