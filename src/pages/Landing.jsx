@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import api from "../api/axiosClient";
 
 function Landing() {
   const navigate = useNavigate();
