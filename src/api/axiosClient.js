@@ -1,10 +1,13 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://127.0.0.1:5000",
+  baseURL: "https://banking-backend-mz30.onrender.com", 
+  headers: {
+    "Content-Type": "application/json",
+  },
 });
 
-// Add token automatically
+// Attach JWT token automatically
 api.interceptors.request.use((config) => {
   const token = localStorage.getItem("token");
   if (token) {
@@ -14,3 +17,4 @@ api.interceptors.request.use((config) => {
 });
 
 export default api;
+
