@@ -10,8 +10,8 @@ function Landing() {
       <div style={styles.card}>
         <h1 style={styles.title}>Welcome to Emmanuel&apos;s Bank</h1>
         <p style={styles.subtitle}>
-          A modern banking sandbox to demo secure logins, account management,
-          and money movement — built by Emmanuel Richmond.
+          A modular banking system to demo secure logins, account management,
+          and money movement.
         </p>
 
         <div style={styles.actions}>
@@ -27,8 +27,7 @@ function Landing() {
         </div>
 
         <p style={styles.note}>
-          This is a demo banking platform — no real money is moved. Perfect for
-          showcasing full-stack engineering skills.
+          Please note, this is a demo banking platform — no real money is moved.
         </p>
       </div>
     </div>
